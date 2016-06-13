@@ -58,14 +58,3 @@ def parse_argument():
 
     return args
 
-if __name__ == '__main__':
-    args = parse_argument()
-
-    print(args.downloading)
-    print(args.thumb)
-    print(args.board)
-    print(args.thread)
-    print(args.path)
-    print(args.socks5)
-    print(args.proxy)
-    print(const.HTTP_PROXIES)

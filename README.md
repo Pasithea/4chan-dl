@@ -15,4 +15,4 @@ A simple 4chan images downloader with CLI.
     See `--help`
 
 ## License
-    [MIT License]("https://opensource.org/licenses/MIT")
+    MIT

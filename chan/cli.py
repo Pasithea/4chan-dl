@@ -33,9 +33,9 @@ def parse_argument():
         parser.print_help()
         raise SystemExit
 
-    if str(args.board) not in const.BOARDS.keys():
-        logger.debug('invalid board tag name.')
-        raise SystemExit
+    # if str(args.board) not in const.BOARDS.keys():
+    #     logger.debug('invalid board tag name.')
+    #     raise SystemExit
 
     if not args.thread.isdigit():
         logger.debug('invalid thread number.')

@@ -1,0 +1,66 @@
+#coding:utf-8
+
+SCHEMA = 'https://'
+#THREAD_API_URL = '%sa.4cdn.org/{}/thread/{}.json' % SCHEMA
+THREAD_API_URL = '%sapi.4chan.org/{}/thread/{}.json' % SCHEMA
+#IMAGE_URL = '%si.4cdn.org/{}/{}{}' % SCHEMA
+#THUMB_URL = '%si.4cdn.org/{}/{}s{}' % SCHEMA
+IMAGE_URL = '%simages.4chan.org/{}/{}{}' % SCHEMA
+THUMB_URL = '%simages.4chan.org/{}/{}s{}' % SCHEMA
+HTTP_PROXIES = None
+BOARDS = {
+    'a':'Anime & Manga',
+    'c':'Anime/Cute',
+    'w':'Anime/Wallpapers',
+    'm':'Mecha',
+    'cgl':'Cosplay & EGL',
+    'cm':'Cute/Male',
+    'n':'Transportation',
+    'jp':'Otaku Culture',
+    'v':'Video Games',
+    'vg':'Video Game Generals',
+    'vp':'Pokemon',
+    'vr':'Retro Games',
+    'co':'Comics & Cartoons',
+    'g':'Technology',
+    'tv':'Television & Film',
+    'k':'Weapons',
+    'o':'Auto',
+    'an':'Animals & Nature',
+    'tg':'Traditional Games',
+    'sp':'Sports',
+    'asp':'Alternative Sports & Wrestling',
+    'sci':'Science & Math',
+    'his':'History & Humanities',
+    'int':'International',
+    'out':'Outdoors',
+    'toy':'Toys',
+    'i':'Oekaki',
+    'po':'Papercraft & Origami',
+    'p':'Photography',
+    'ck':'Food & Cooking',
+    'ic':'Artwork/Critique',
+    'wg':'Wallpapers/General',
+    'mu':'Music',
+    'fa':'Fashion',
+    '3':'3DCG',
+    'gd':'Graphic Design',
+    'diy':'Do It Yourself',
+    'wsg':'Worksafe GIF',
+    'qst':'Quests',
+    'biz':'Business & Finance',
+    'trv':'Travel',
+    'fit':'Fitness',
+    'x':'Paranormal',
+    'lit':'Literature',
+    'adv':'Advice',
+    'lgbt':'Lesbian, Gay, Bisexual, & Transgender',
+    'mlp':'Pony',
+    'news':'Current News',
+    'wsr':'Worksafe Requests',
+    'b':'Random',
+    'r9k':'ROBOT9001',
+    'pol':'Politically Incorrect',
+    'soc':'Cams & Meetups',
+    's4s':'Sh*t chan Says',
+}

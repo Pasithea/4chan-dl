@@ -55,7 +55,7 @@ class Thread(object):
 
     def thread_info(self):
         info = dict()
-        info['sub'] = self.data[0]['sub']
+        info['sub'] = self.data[0].get('sub')
         info['images'] = self.img_num
         return info
 
